@@ -3,7 +3,7 @@
 This is a simple client-server notification system built using Python.
 We wanted to apply the TCP socket programming concepts learned from Data Communications class.
 The server manages user logins, roles, and inactivity timeouts.  
-Clients can log in, receive and view automatic messages based on their role
+Clients can log in, receive and view automatic messages based on their role.
 
 ---
 
