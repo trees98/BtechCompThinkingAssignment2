@@ -10,7 +10,6 @@ CHECK_INTERVAL = 5
 
 # User dictionary
 users = {
-    "Carter": {"password": "12345", "role": "admin", "subscribed": True, "inbox": [], "active": False, "last_activity": 0, "connection": None},
     "John":   {"password": "12345", "role": "admin", "subscribed": True, "inbox": [], "active": False, "last_activity": 0, "connection": None},
     "Deer":   {"password": "54321", "role": "editor", "subscribed": True, "inbox": [], "active": False, "last_activity": 0, "connection": None},
     "Bob":    {"password": "54321", "role": "viewer", "subscribed": True, "inbox": [], "active": False, "last_activity": 0, "connection": None},
@@ -163,3 +162,4 @@ def main():
         server.close()
         print("Socket Closed")
 main()
+
