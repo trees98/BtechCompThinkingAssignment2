@@ -26,4 +26,4 @@ python server.py
 
 ### 2. Start the Client
 
-pyhton client.py
+python client.py
